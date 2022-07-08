@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0068D74B284DF455005A2A0B /* ARNDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0068D74A284DF455005A2A0B /* ARNDemoViewController.m */; };
+		0077144A28729595008A54FA /* ARNBridgePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077144928729595008A54FA /* ARNBridgePool.m */; };
+		0077144F287296F5008A54FA /* ARNBridgeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077144E287296F5008A54FA /* ARNBridgeLoader.m */; };
+		0077145C2873CB15008A54FA /* ARNRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077145B2873CB15008A54FA /* ARNRootView.m */; };
+		007714632873CEB1008A54FA /* ARNRootViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 007714622873CEB1008A54FA /* ARNRootViewFactory.m */; };
+		007714672873E6FE008A54FA /* common.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 007714662873E6FE008A54FA /* common.ios.bundle */; };
+		0077149928740ACE008A54FA /* ARNAssetEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0077149828740ACE008A54FA /* ARNAssetEmitter.m */; };
 		00E356F31AD99517003FC87E /* YxRnNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* YxRnNewTests.m */; };
+		00EEC286284DF82800C5E928 /* ARNRouteParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EEC285284DF82800C5E928 /* ARNRouteParser.m */; };
+		00EEC28B284DF93700C5E928 /* ARNRouteInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EEC28A284DF93700C5E928 /* ARNRouteInfo.m */; };
+		00EEC290284DF9E000C5E928 /* ARNPackageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EEC28F284DF9E000C5E928 /* ARNPackageLoader.m */; };
+		00F96C3A287667D4009DF006 /* cardA in Resources */ = {isa = PBXBuildFile; fileRef = 00F96C39287667D4009DF006 /* cardA */; };
+		00F96C3F28766812009DF006 /* ARNBundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F96C3E28766812009DF006 /* ARNBundleManager.m */; };
+		00F96C6D28767D9B009DF006 /* cardB in Resources */ = {isa = PBXBuildFile; fileRef = 00F96C6C28767D9B009DF006 /* cardB */; };
 		0C80B921A6F3F58F76C31292 /* libPods-YxRnNew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-YxRnNew.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -27,9 +40,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0068D749284DF455005A2A0B /* ARNDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNDemoViewController.h; sourceTree = "<group>"; };
+		0068D74A284DF455005A2A0B /* ARNDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNDemoViewController.m; sourceTree = "<group>"; };
+		0077144828729595008A54FA /* ARNBridgePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNBridgePool.h; sourceTree = "<group>"; };
+		0077144928729595008A54FA /* ARNBridgePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNBridgePool.m; sourceTree = "<group>"; };
+		0077144D287296F5008A54FA /* ARNBridgeLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNBridgeLoader.h; sourceTree = "<group>"; };
+		0077144E287296F5008A54FA /* ARNBridgeLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNBridgeLoader.m; sourceTree = "<group>"; };
+		007714522872FFC0008A54FA /* RCTBridge+ARNBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTBridge+ARNBridge.h"; sourceTree = "<group>"; };
+		0077145928730240008A54FA /* ARNCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNCommonDefine.h; sourceTree = "<group>"; };
+		0077145A2873CB15008A54FA /* ARNRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNRootView.h; sourceTree = "<group>"; };
+		0077145B2873CB15008A54FA /* ARNRootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNRootView.m; sourceTree = "<group>"; };
+		007714612873CEB1008A54FA /* ARNRootViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNRootViewFactory.h; sourceTree = "<group>"; };
+		007714622873CEB1008A54FA /* ARNRootViewFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNRootViewFactory.m; sourceTree = "<group>"; };
+		007714662873E6FE008A54FA /* common.ios.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = common.ios.bundle; path = ../../dist/common/ios/common.ios.bundle; sourceTree = "<group>"; };
+		0077149728740ACE008A54FA /* ARNAssetEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNAssetEmitter.h; sourceTree = "<group>"; };
+		0077149828740ACE008A54FA /* ARNAssetEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNAssetEmitter.m; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* YxRnNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YxRnNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* YxRnNewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YxRnNewTests.m; sourceTree = "<group>"; };
+		00EEC284284DF82800C5E928 /* ARNRouteParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNRouteParser.h; sourceTree = "<group>"; };
+		00EEC285284DF82800C5E928 /* ARNRouteParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNRouteParser.m; sourceTree = "<group>"; };
+		00EEC289284DF93700C5E928 /* ARNRouteInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNRouteInfo.h; sourceTree = "<group>"; };
+		00EEC28A284DF93700C5E928 /* ARNRouteInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNRouteInfo.m; sourceTree = "<group>"; };
+		00EEC28E284DF9E000C5E928 /* ARNPackageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNPackageLoader.h; sourceTree = "<group>"; };
+		00EEC28F284DF9E000C5E928 /* ARNPackageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNPackageLoader.m; sourceTree = "<group>"; };
+		00F96C39287667D4009DF006 /* cardA */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cardA; path = ../../dist/cardA; sourceTree = "<group>"; };
+		00F96C3D28766812009DF006 /* ARNBundleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNBundleManager.h; sourceTree = "<group>"; };
+		00F96C3E28766812009DF006 /* ARNBundleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNBundleManager.m; sourceTree = "<group>"; };
+		00F96C6C28767D9B009DF006 /* cardB */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cardB; path = ../../dist/cardB; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* YxRnNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YxRnNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YxRnNew/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = YxRnNew/AppDelegate.mm; sourceTree = "<group>"; };
@@ -66,6 +104,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0068D746284DF3D1005A2A0B /* ARN */ = {
+			isa = PBXGroup;
+			children = (
+				00F96C6C28767D9B009DF006 /* cardB */,
+				00F96C39287667D4009DF006 /* cardA */,
+				007714662873E6FE008A54FA /* common.ios.bundle */,
+				00EEC284284DF82800C5E928 /* ARNRouteParser.h */,
+				00EEC285284DF82800C5E928 /* ARNRouteParser.m */,
+				00EEC289284DF93700C5E928 /* ARNRouteInfo.h */,
+				00EEC28A284DF93700C5E928 /* ARNRouteInfo.m */,
+				0077144828729595008A54FA /* ARNBridgePool.h */,
+				0077144928729595008A54FA /* ARNBridgePool.m */,
+				0077144D287296F5008A54FA /* ARNBridgeLoader.h */,
+				0077144E287296F5008A54FA /* ARNBridgeLoader.m */,
+				007714522872FFC0008A54FA /* RCTBridge+ARNBridge.h */,
+				00EEC28E284DF9E000C5E928 /* ARNPackageLoader.h */,
+				00EEC28F284DF9E000C5E928 /* ARNPackageLoader.m */,
+				0077145928730240008A54FA /* ARNCommonDefine.h */,
+				0077145A2873CB15008A54FA /* ARNRootView.h */,
+				0077145B2873CB15008A54FA /* ARNRootView.m */,
+				007714612873CEB1008A54FA /* ARNRootViewFactory.h */,
+				007714622873CEB1008A54FA /* ARNRootViewFactory.m */,
+				0077149728740ACE008A54FA /* ARNAssetEmitter.h */,
+				0077149828740ACE008A54FA /* ARNAssetEmitter.m */,
+				00F96C3D28766812009DF006 /* ARNBundleManager.h */,
+				00F96C3E28766812009DF006 /* ARNBundleManager.m */,
+			);
+			path = ARN;
+			sourceTree = "<group>";
+		};
 		00E356EF1AD99517003FC87E /* YxRnNewTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,8 +154,11 @@
 		13B07FAE1A68108700A75B9A /* YxRnNew */ = {
 			isa = PBXGroup;
 			children = (
+				0068D746284DF3D1005A2A0B /* ARN */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				0068D749284DF455005A2A0B /* ARNDemoViewController.h */,
+				0068D74A284DF455005A2A0B /* ARNDemoViewController.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -123,9 +194,9 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
+			tabWidth = 4;
 			usesTabs = 0;
 		};
 		83CBBA001A601CBA00E9B192 /* Products */ = {
@@ -198,7 +269,9 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ARN;
 				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = geeklyc;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -241,7 +314,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				00F96C6D28767D9B009DF006 /* cardB in Resources */,
+				007714672873E6FE008A54FA /* common.ios.bundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				00F96C3A287667D4009DF006 /* cardA in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +432,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			shellScript = "
+";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -374,8 +451,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00EEC286284DF82800C5E928 /* ARNRouteParser.m in Sources */,
+				0077144F287296F5008A54FA /* ARNBridgeLoader.m in Sources */,
+				00EEC28B284DF93700C5E928 /* ARNRouteInfo.m in Sources */,
+				00F96C3F28766812009DF006 /* ARNBundleManager.m in Sources */,
+				0077144A28729595008A54FA /* ARNBridgePool.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				007714632873CEB1008A54FA /* ARNRootViewFactory.m in Sources */,
+				0068D74B284DF455005A2A0B /* ARNDemoViewController.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				00EEC290284DF9E000C5E928 /* ARNPackageLoader.m in Sources */,
+				0077149928740ACE008A54FA /* ARNAssetEmitter.m in Sources */,
+				0077145C2873CB15008A54FA /* ARNRootView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +537,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = YxRnNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +563,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = YxRnNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

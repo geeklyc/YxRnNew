@@ -1,3 +1,6 @@
+
+# source 'https://github.com/CocoaPods/Specs.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
@@ -23,6 +26,9 @@ target 'YxRnNew' do
     inherit! :complete
     # Pods for testing
   end
+  
+  # 第三方
+  pod 'SSZipArchive'
 
   # Enables Flipper.
   #

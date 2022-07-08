@@ -7,11 +7,16 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build-common": "node ./builds/build-common.js",
+    "build-cardA": "node ./builds/build-business.js cardA 1000",
+    "build-cardB": "node ./builds/build-business.js cardB 2000",
+    "build-test": "node node_modules/react-native/local-cli/cli.js bundle --platform ios --dev false --entry-file ./index.js --bundle-output ./dist/test.bundle"
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-native": "0.68.1"
+    "react-native": "0.68.1",
+    "recyclerlistview": "^3.2.0-beta.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
